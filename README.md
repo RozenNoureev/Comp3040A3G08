@@ -8,7 +8,7 @@ Parameters:
 - `areaLocated` - Area where the park is located.
 - `hasWaterBody` - Returns `True` or `False` depeneding on whether the Park has any waterbodies(Lake, pond, river, etc) in it or not.
 
-## Description of Resources
+## Type of parameters
 
 The Park Finder API returns data in JSON format. The following resources are available:
 
