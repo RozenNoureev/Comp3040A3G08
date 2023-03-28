@@ -84,8 +84,8 @@ A Park object represents a park in Manitoba. The following fields are available:
 ``` json
 {
  {
-   "Chitak Lake park reserv",
    "Birds Hill Park",
+   "Chitak Lake park reserv",
    "Duck Mountain Provencial Park",
    "Saint Vital Park",
    "Birds hill Provincial Park",
