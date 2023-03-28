@@ -61,10 +61,10 @@ A Park object represents a park in Manitoba. The following fields are available:
 
 ```json
 {
- "id": 'int',
- "name": 'String',
- "areaLocated": 'String',
- "waterBody": 'List' 
+ "id": "int",
+ "name": "String",
+ "areaLocated": "String",
+ "waterBody": "List" 
 }
 ```
 
