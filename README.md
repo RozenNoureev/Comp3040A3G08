@@ -44,6 +44,7 @@ The Park Finder API returns data in JSON format. The following resources are ava
 | name       | String  | 
 | areaLocated| String  | 
 | hasWaterBody| Boolean |
+| waterBody| List |
 
 ## Resource Description
 
