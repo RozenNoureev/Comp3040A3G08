@@ -65,25 +65,31 @@ A Park object represents a park in Manitoba. The following fields are available:
 [www.parksmb.com/parks/1]()
 
 ### Response
-
+```json
 {
+ {
   "id": 1,
   "name": "Birds Hill Park",
   "areaLocated": "RM of Springfield",
   "waterBody": ["Man-Made Beach"]
-}
-
+ }
+ "status":"OK"
+} 
+```
 ### Request : 2
 
 [www.parksmb.com/parks]()
 
 ### Response
-
+``` json
 {
-  "Chitak Lake park reserv",
-  "Birds Hill Park",
-  "Duck Mountain Provencial Park",
-  "Saint Vital Park",
-  "Birds hill Provincial Park",
-  "Turtle Mountain Provencial Park"
+ {
+   "Chitak Lake park reserv",
+   "Birds Hill Park",
+   "Duck Mountain Provencial Park",
+   "Saint Vital Park",
+   "Birds hill Provincial Park",
+   "Turtle Mountain Provencial Park"
+ }
+ "status":"OK"
 }
