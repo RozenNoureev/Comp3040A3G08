@@ -59,6 +59,15 @@ A Park object represents a park in Manitoba. The following fields are available:
 - `areaLocated` - The location of the park, either described by city/RM or using regions as described by [Canada's travel website](https://www.comeexplorecanada.com/manitoba).
 - `waterBody` - Describes the type of body of water that can be found at the park, if there is one.
 
+```json
+{
+ "id": 'int',
+ "name": 'String',
+ "areaLocated": 'String',
+ "waterBody": 'List' 
+}
+```
+
 ## Sample Request with Sample Response
 
 ### Request : 1
