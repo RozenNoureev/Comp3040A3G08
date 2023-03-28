@@ -60,7 +60,7 @@ A Park object represents a park in Manitoba. The following fields are available:
 
 ## Sample Request with Sample Response
 
-### Request 
+### Request : 1
 
 [www.parksmb.com/parks/1]()
 
@@ -72,4 +72,20 @@ A Park object represents a park in Manitoba. The following fields are available:
   "name": "Birds Hill Park",
   "areaLocated": "RM of Springfield",
   "waterBody": ["Man-Made Beach"]
+}
+
+### Request : 2
+
+[www.parksmb.com/parks]()
+
+### Response
+
+```json
+{
+  "Chitak Lake park reserv",
+  "Birds Hill Park",
+  "Duck Mountain Provencial Park",
+  "Saint Vital Park",
+  "Birds hill Provincial Park",
+  "Turtle Mountain Provencial Park"
 }
