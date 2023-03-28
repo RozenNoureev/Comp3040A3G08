@@ -1,3 +1,3 @@
 ## API Description
 
-The Park Finder API for Manitoba is a RESTful API designed to provide information about parks in the province of Manitoba, Canada. This API can be used to obtain details about parks such as their location, amenities, trails, and events. It allows users to search for parks based on different criteria, such as park name, location, and amenities. The API is publicly accessible and can be used by any application that requires park-related information in Manitoba.
+The RESTful Park Finder API for Manitoba is designed to provide information about parks situated in Manitoba, Canada, allowing users to access details such as park location and other features. This API enables users to search for parks using different criteria, including park name and location. Additionally, the API is publicly accessible and can be integrated into any application requiring park-related data in Manitoba.
