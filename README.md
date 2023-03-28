@@ -27,7 +27,7 @@ The Manitoba Parks API returns data in JSON format. The following resources are 
 
 ### Park
 
-A Park object represents a park in Manitoba. The following attributes are available:
+A Park object represents a park in Manitoba. The following fields are available:
 
 - `id` - The unique ID of the park, represented by a decimal number.
 - `name` - The name of the park.
