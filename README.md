@@ -66,7 +66,6 @@ A Park object represents a park in Manitoba. The following fields are available:
 
 ### Response
 
-```json
 {
   "id": 1,
   "name": "Birds Hill Park",
@@ -80,7 +79,6 @@ A Park object represents a park in Manitoba. The following fields are available:
 
 ### Response
 
-```json
 {
   "Chitak Lake park reserv",
   "Birds Hill Park",
