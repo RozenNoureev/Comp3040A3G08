@@ -12,39 +12,24 @@ The Manitoba Parks API includes the following endpoints:
 
 It gives a list of all the parks in Manitoba.
 
-Parameters:
-
-None
-
 ### GET /parks/{id}
 
 Each park has a unique ID, it will return the name and info of the park the park whose ID is provided as a parameter.
-
-Parameters:
-
-- `id` - The ID of the park to retrieve.
 
 ### GET /parks/info
 
 This endpoint allows users to get a list of parks and their information filtered by specified parameters.
 
-Parameters:
-
-- `name` - Name of the park.
-- `areaLocated` - Area where the park is located.
-- `hasWaterBody` - Accepts a `true` or `false` value and returns a list of parks that either have bodies of water or don't.
-
 ## Type of parameters
 
-The Park Finder API returns data in JSON format. The following resources are available:
+The following parameters are available:
 
-| Parameter  | Type    | 
-| :-------:  | :--:    |
-| id         |  int    | 
-| name       | String  | 
-| areaLocated| String  | 
-| hasWaterBody| Boolean |
-| waterBody| List |
+| Parameter  | Type    | Description | Required? |
+| :-------:  | :--:    | :---------: | :------: |
+| id         | Int     | The ID of the park to retrieve. | Yes |
+| name       | String  | Name of the park.| No |
+| areaLocated| String  | Area where the park is located.| No |
+| hasWaterBody| Boolean | Accepts a `true` or `false` value and returns a list of parks that either have bodies of water or don't.| No |
 
 ## Resource Description
 
